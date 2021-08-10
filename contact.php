@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="Z1.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Z4.CSS">
+
 </head>
 
 <body>
-
-    <!--Header, Main, Footer-->
     <header>
         <div class="banner">
             <nav>
@@ -27,24 +26,19 @@
         </div>
     </header>
     <main>
-        <div class="text">
-            <h4>Welcome!</h4>
-            <p>Hello, and welcome to this site. This site will give you the proper information about the game we are releasing. Everything you want answered will be on here or you can join the Discord(See Discord below). My name is Zorro and will try to help everyone to my best ability. You can contact us by leaving your question + E-mail at the <a href="Contact.php">Contact </a>page. Thanks for your time and I hope that you will enjoy the game!</p>
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="form-handler.php">
+                <input name="name" type="text" class="form-control" placeholder="Your name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Your email" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea>
+                <BR>
+                <input type="submit" class="form-control submit" value="Submit">
+            </form>
         </div>
-       
-
 
     </main>
-
-    <!--divs-->
-    <br>
-    <div class="parallax"></div>
-    <!--Video-->
-
-
-
-
-
 </body>
 
 </html>
