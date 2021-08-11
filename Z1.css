@@ -33,6 +33,7 @@ body {
   padding: 0;
   background-color: white;
   text-align: center;
+  background: url(jup.png) linear-gradient();
 }
 .banner {
   background-color: #ff5722;
@@ -40,7 +41,7 @@ body {
   position: inherit;
   width: 100%;
 }
-.banner_content > ul {
+.banner_content ul {
   display: flex;
   align-items: stretch;
   justify-content: flex-end;
@@ -60,4 +61,9 @@ body {
 }
 .text {
   color: rgb(0, 0, 0);
+}
+.text button {
+  margin: 0;
+  padding: 0;
+  width: 30px;
 }

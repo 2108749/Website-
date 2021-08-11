@@ -33,10 +33,6 @@ body {
   padding: 0;
   background-color: white;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)),
-    url(foto.jpg);
-  background-size: cover;
-  background-position: center;
 }
 .banner {
   background-color: #ff5722;
