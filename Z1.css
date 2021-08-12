@@ -33,7 +33,7 @@ body {
   padding: 0;
   background-color: white;
   text-align: center;
-  background: url(jup.png) linear-gradient();
+  background: url(jup.png) no-repeat cover;
 }
 .banner {
   background-color: #ff5722;
