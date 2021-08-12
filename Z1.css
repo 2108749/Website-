@@ -34,9 +34,10 @@ body {
   background-color: white;
   text-align: center;
   background: url(jup.png) no-repeat cover;
+  position: center;
 }
 .banner {
-  background-color: #ff5722;
+  background-color: #808080;
   margin: 0;
   position: inherit;
   width: 100%;
