@@ -46,3 +46,8 @@ li {
   background: rgb(109, 109, 109);
   cursor: pointer;
 }
+#logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 0;
+}

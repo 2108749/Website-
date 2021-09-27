@@ -18,7 +18,7 @@
 
                     <ul>
                         <div id="logo">
-                            <li><img src="../Website/logo.png"> </li>
+                            <li><img src="../Website/logo official.png"> </li>
                         </div>
                         <button>
                             <li><a href="#">Home</a></li>
