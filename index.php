@@ -20,6 +20,7 @@
                         <div id="logo">
                             <li><img src="../Website/logo official.png"> </li>
                         </div>
+
                         <button>
                             <li><a href="index.php">Home</a></li>
                         </button>
@@ -30,10 +31,18 @@
                             <li><a href="politicie.html">Politicie</a></li>
                         </button>
                         <button>
-                            <li><a href="agenda.html">agenda></a></li>
+                            <li><a href="agenda.html">agenda</a></li>
                         </button>
                         <button>
                             <li><a href="forum.php">Forum</a></li>
+                        </button>
+                        <div id="loginbutton">
+                            <button>
+                                <li><a href="login.php">Login</a></li>
+                            </button>
+                        </div>
+                        <button>
+                            <li><a href="blog.html">Blog</a></li>
                         </button>
                     </ul>
                 </div>
