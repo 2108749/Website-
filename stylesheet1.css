@@ -55,7 +55,8 @@ img {
   text-align: center;
   text-decoration-line: underline;
   text-decoration-color: black;
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
 }
 
 .nav li {
