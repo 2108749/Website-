@@ -9,52 +9,31 @@
     <link rel="stylesheet" href="stylesheet1.css">
 </head>
 
+
+
 <body>
     <header>
-
         <nav>
             <div class="banner">
-                <div class="banner_content">
-
-                    <ul>
-                        <div id="logo">
-                            <li><img src="../Website/logo official.png"> </li>
-                        </div>
-
-                        <button>
-                            <li><a href="index.php">Home</a></li>
-                        </button>
-                        <button>
-                            <li><a href="Standpunten.html">Standpunten</a></li>
-                        </button>
-                        <button>
-                            <li><a href="politicie.html">Politicie</a></li>
-                        </button>
-                        <button>
-                            <li><a href="agenda.html">agenda</a></li>
-                        </button>
-                        <button>
-                            <li><a href="forum.php">Forum</a></li>
-                        </button>
-                        <div id="loginbutton">
-                            <button>
-                                <li><a href="login.php">Login</a></li>
-                            </button>
-                        </div>
-                        <button>
-                            <li><a href="blog.html">Blog</a></li>
-                        </button>
-                    </ul>
-                </div>
+                <ul>
+                    <div id="logo">
+                        <li><img src="../Website/logo official.png"> </li>
+                    </div>
+                    <div class="content">
+                        <a href="index.php">Home</a>
+                        <a href="politicie.html">Politicie</a>
+                        <a href="Standpunten.html">Standpunten</a>
+                        <a href="Forum.php">Forum</a>
+                        <a href="agenda.html">Agenda</a>
+                    </div>
+            </div>
             </div>
         </nav>
     </header>
     <main>
-
+        <div class="inleiding">
+            <h1>Partij voor Nederland!</h1>
+        </div>
     </main>
-
-
-
-</body>
 
 </html>
