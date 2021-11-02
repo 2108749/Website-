@@ -132,7 +132,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p>Heeft u geen account? <a href="register.php">registreer u nu.</a>.</p>
+            <p>Heeft u geen account? <a href="register.php">registreer u nu.</a></p>
         </form>
     </div>
     <style>
