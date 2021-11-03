@@ -94,20 +94,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="stylesheet1.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            font: 14px sans-serif;
-
-        }
-
-        .wrapper {
-            width: 360px;
-            padding: 20px;
-            margin-left: 40%;
-        }
-    </style>
 </head>
 <div class="header" id="head">
     <div class="imgg"><a href="index.php"><img class="imgg" src="logo official.png"></a></div>
@@ -158,12 +146,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p>Heeft u geen account? <a href="register.php">registreer u nu.</a></p>
         </form>
     </div>
-    <style>
-        * {
-            align-items: center;
-            text-align: center;
-        }
-    </style>
 </body>
 
 </html>

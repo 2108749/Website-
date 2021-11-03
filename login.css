@@ -28,7 +28,7 @@ img {
   grid: auto;
   margin-bottom: auto;
   width: 100%;
-  height: 95%;
+  height: 98%;
   border: 1px solid transparent;
 }
 .imgg:hover {
@@ -45,14 +45,16 @@ img {
 .nav {
   overflow: hidden;
   display: flex;
+  flex-direction: row;
 }
 
 .nav ul {
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   gap: 15px;
   height: 40px;
-  flex-direction: space-evenly;
+  align-items: flex-end;
 }
 
 .nav ul li {
@@ -105,29 +107,4 @@ li:hover {
 }
 a:hover {
   color: inherit;
-}
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-ul li {
-  float: left;
-  opacity: 0.9;
-  line-height: 40px;
-  text-align: center;
-  font-size: inherit;
-}
-ul li a {
-  color: white;
-  display: block;
-}
-
-ul li ul li {
-  display: none;
-}
-ul li:hover ul li {
-  display: block;
-  font-size: 12px;
-  border: solid 1px black;
 }

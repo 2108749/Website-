@@ -16,7 +16,13 @@
 
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="Standpunten.html">Politicie</a></li>
+                <li><a href="Standpunten.html">Politicie</a>
+                    <ul>
+                        <li><a href="#">Politiek-juridisch</a></li>
+                        <li><a href="#">Sociaaleconomisch</a></li>
+                        <li><a href="#">Sociaal-cultureel</a></li>
+                    </ul>
+                </li>
                 <li><a href="agenda.html">Agenda</a></li>
                 <li><a href="login.php">Log In</a></li>
 
