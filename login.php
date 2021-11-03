@@ -94,23 +94,46 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link rel="stylesheet" href="stylesheet1.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font: 14px sans-serif;
+
         }
 
         .wrapper {
             width: 360px;
             padding: 20px;
+            margin-left: 40%;
         }
     </style>
 </head>
+<div class="header" id="head">
+    <div class="imgg"><a href="index.php"><img class="imgg" src="logo official.png"></a></div>
+    <div class="nav">
+        <nav>
+
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="Standpunten.html">Politicie</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="login.php">Log In</a></li>
+
+                <div id="yesyes">
+                    <p>"Alles voor Nederland!"</p>
+                </div>
+            </ul>
+
+        </nav>
+    </div>
+</div>
 
 <body>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Voer uw gegevens in om in te loggen.</p>
+
 
         <?php
         if (!empty($login_err)) {
