@@ -89,6 +89,8 @@ li:hover {
 }
 #yesyes {
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 20px;
 }
 .banner h2 {
   text-decoration-line: underline;
@@ -129,5 +131,9 @@ ul li ul li {
 ul li:hover ul li {
   display: block;
   font-size: 12px;
-  border: solid 1px black;
+}
+#welcomeLogin {
+  position: relative;
+  color: blue;
+  left: 48px;
 }

@@ -125,6 +125,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <span class="invalid-feedback"><?php echo $username_err; ?></span>
             </div>
             <div class="form-group">
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="form-control" value="MEN">
+                <label for="form-control">Meneer</label><br>
+                <input type="radio" name="form-control" value="WOMAN">
+                <label for="WOMAN">Mevrouw</label><br>
+
+            </div>
+            <div class="form-group">
                 <label>Wachtwoord</label>
                 <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
@@ -134,6 +143,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
                 <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
             </div>
+            <div class="form-group">
+                <label>Straat naam</label>
+                <input type="text" name="street name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Huis nummer</label>
+                <input type="text" name="Huis nummer" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Studie</label>
+                <input type="text" name="studie" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Rekening nummer</label>
+                <input type="text" name="Rekening nummer" class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="checkbox" name="nieuwsbrief">
+                <label for="nieuwsbrief">Als u zich wilt opgeven voor de nieuwsbrief, klik dan op het blokje hiernaast.</label><br>
+            </div>
+            <br>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-secondary ml-2" value="Reset">

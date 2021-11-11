@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,10 +30,22 @@
                 <div id="yesyes">
                     <p>"Alles voor Nederland!"</p>
                 </div>
-            </ul>
+                <div id="welcomeLogin">
+                    <?php
 
-        </nav>
+                    if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
+
+                        echo "Welkom " . htmlspecialchars($_SESSION["username"]);
+                    } else {
+
+                        echo "Aanmelden/inloggen";
+                    } ?>
+                </div>
     </div>
+    </ul>
+
+    </nav>
+</div>
 </div>
 
 <div class="banner">
